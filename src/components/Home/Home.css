@@ -1,0 +1,30 @@
+.Home {
+    display: flex;
+    /*flex-direction: column;*/
+    /*display: block;*/
+    max-width: 1700px;
+}
+
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.headerContainer {
+    min-width: 200px;
+    display: flex;
+    /*flex-direction: column;*/
+    /*display: inline-block;*/
+}
+
+.slider{
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*display: inline-block;*/
+    /*float: left;*/
+}
+
+.about {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}

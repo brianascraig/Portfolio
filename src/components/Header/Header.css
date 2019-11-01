@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gilda+Display|Staatliches&display=swap');
+
+.Header {
+    background-color: var(--color_black);
+    color: var(--color_purple);
+    width:100%;
+    font-family: 'Staatliches', cursive;
+}
+
+.logoContainer{
+    background-color: #404257;
+    padding: 10%;
+    border-bottom: 1px solid var(--color_dark_gray);
+}
+
+.sideNav-item:hover {
+    background-color: var(--color_dark_gray);
+}
+
+.logo {
+    width: 100%;
+}
+
+.sideNav-item{
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 1px solid var(--color_dark_gray);
+    padding: 20%;
+    text-align: center;
+    font-size: 150%;
+}
+
+.Header a, a:link, a:visited {
+    color: var(--color_purple);
+    text-decoration: none;
+}
+
+

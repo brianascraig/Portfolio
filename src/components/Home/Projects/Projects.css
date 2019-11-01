@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Dancing+Script|Gilda+Display|Satisfy|Staatliches&display=swap');
+
+.Projects{
+    background-color: var(--color_white);
+}
+.projTitleBlock{
+    padding: 5%;
+}
+.projTitle{
+    font-size: 500%;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    margin-bottom: -1%;
+    color: var(--color_dark_gray);
+}
+
+.projDesc{
+    font-size: 300%;
+    font-family: 'Staatliches', cursive;
+    color: var(--color_pink);
+}
+
+.projImagesContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 1700px;
+}
+
+.projImageRow1, .projImageRow2{
+    display: flex;
+    flex-direction: row;
+    max-width: 1700px;
+    margin-bottom: -5px;
+}
+
+.projImage img{
+    max-width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.projImage{
+    background: var(--color_pink);
+    position: relative;
+}
+
+.projImage:hover img{
+    opacity: 0.2;
+}
+
+.imageTextContainer{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Cabin', sans-serif;
+    color: var(--color_white);
+}
+
+.projImage:hover .imageTextContainer{
+    opacity: 1;
+}
+
+.imageText p{
+
+    background-color: #535568;
+    padding: 10px;
+
+}
+
+.imageText:hover{
+    /*opacity: 1;*/
+}

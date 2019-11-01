@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Gilda+Display|Staatliches&display=swap');
+
+.sliderImg{
+    display: flex;
+    max-width:100%;
+    filter: blur(4px);
+
+}
+.Slider{
+    position: relative;
+    text-align: center;
+}
+.sliderCaption1 {
+    color: var(--color_pink);
+    font-size: 300%;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    font-family: 'Staatliches', cursive;
+}
+
+.sliderCaption2{
+    color: var(--color_orange);
+    font-size: 400%;
+    position: absolute;
+    top: 12%;
+    left: 30%;
+    font-family: 'Staatliches', cursive;
+}
+
+.sliderCaption3{
+    color: var(--color_white);
+    font-weight: bold;
+    font-size: 150%;
+    position: absolute;
+    top: 38%;
+    left: 26%;
+}
+
+.moreBtn{
+    color: var(--color_white);
+    font-family: 'Staatliches', cursive;
+    font-size: 150%;
+    position: absolute;
+    top: 55%;
+    left: 42%;
+    border: none;
+    background-color: var(--color_purple);
+    padding: 15px;
+}
+
+.moreBtn:hover{
+    background-color: var(--color_pink);
+}
