@@ -31,7 +31,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                {/*<Header className="header"/>*/}
+                {/*<Header className="header col-3"/>*/}
                 <Switch>
                     <Route path='/project-posts' component={ProjectPosts} />
                     <Route path='/articles' component={Articles} />

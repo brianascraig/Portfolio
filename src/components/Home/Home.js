@@ -12,19 +12,22 @@ import Header from "../Header/Header";
 export default function home() {
     return (
         <div className="Home">
-            <div className="headerContainer">
-                <Header className="header"/>
+            <div className="row no-gutters">
+                <div className="headerContainer col-2">
+                    <Header className="header"/>
+                </div>
+
+                <div className="homeContainer col-10">
+                    <Slider className="slider"/>
+                    <About className="about"/>
+                    <Projects/>
+                    <Experience/>
+                    <Skills/>
+                    <Blog/>
+                    <Contact/>
+                </div>
             </div>
 
-            <div className="homeContainer">
-                <Slider className="slider"/>
-                <About className="about"/>
-                <Projects/>
-                <Experience/>
-                <Skills/>
-                <Blog/>
-                <Contact/>
-            </div>
         </div>
     );
 }

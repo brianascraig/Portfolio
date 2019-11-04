@@ -36,7 +36,7 @@
 .aboutMoreInfo{
     font-size: 105%;
     font-family: 'Cabin', sans-serif;
-    color: var(--color_gray)
+    color: var(--color_gray);
 }
 
 .aboutImageContainer{
@@ -53,4 +53,8 @@
     border: none;
     background-color: var(--color_purple);
     padding: 15px;
+}
+
+.projBtn:hover{
+    background-color: var(--color_pink);
 }

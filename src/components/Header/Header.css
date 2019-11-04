@@ -4,8 +4,10 @@
 .Header {
     background-color: var(--color_black);
     color: var(--color_purple);
-    width:100%;
+    /*width:100%;*/
     font-family: 'Staatliches', cursive;
+    position: sticky;
+    top: 0;
 }
 
 .logoContainer{

@@ -9,6 +9,12 @@
 .Slider{
     position: relative;
     text-align: center;
+    background-image: url("./slider-image.png");
+    height: 830px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .sliderCaption1 {
     color: var(--color_pink);
@@ -33,7 +39,7 @@
     font-weight: bold;
     font-size: 150%;
     position: absolute;
-    top: 38%;
+    top: 37%;
     left: 26%;
 }
 

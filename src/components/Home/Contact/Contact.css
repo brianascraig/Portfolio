@@ -1,0 +1,21 @@
+.Contact{
+    background-color: var(--color_black);
+}
+
+.contactImg{
+    max-height: 800px;
+}
+
+.inputContainer{
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+form{
+    padding-top: 40px;
+}
+
+textarea{
+    border-radius: 5px;
+    border: 1px solid gray;
+}

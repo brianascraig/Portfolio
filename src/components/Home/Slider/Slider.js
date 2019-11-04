@@ -5,7 +5,7 @@ import picture from './slider-image.png';
 export default function slider() {
     return (
         <div className="Slider">
-            <img className="sliderImg" src={picture} alt=""/>
+            {/*<img className="sliderImg" src={picture} alt=""/>*/}
             <div className="sliderCaption1">
                 Briana Craig
             </div>

@@ -1,0 +1,43 @@
+.Skills{
+    background-color: var(--color_white);
+}
+
+.skillsInfo{
+    padding-top: 50px;
+}
+
+.progbarContainer{
+    padding-bottom: 10px;
+}
+
+.progress-bar{
+    background-color: var(--color_orange);
+}
+
+.progbar70{
+    width: 70%;
+}
+
+.progbar75{
+    width: 75%;
+}
+
+.progbar80{
+    width: 80%;
+}
+
+.progbar85{
+    width: 85%
+}
+
+.progbar90{
+    width: 90%
+}
+
+.progbar95{
+    width: 95%;
+}
+
+.skillsImg{
+    max-height: 1260px;
+}

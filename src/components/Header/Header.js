@@ -43,12 +43,12 @@ export default function header() {
                         Skills
                     </Link>
                 </div>
-                <div className="nav-item sideNav-item">
-                    <Link to={Blog}>
-                        <img src="" alt="" />
-                        Blog
-                    </Link>
-                </div>
+                {/*<div className="nav-item sideNav-item">*/}
+                {/*    <Link to={Blog}>*/}
+                {/*        <img src="" alt="" />*/}
+                {/*        Blog*/}
+                {/*    </Link>*/}
+                {/*</div>*/}
                 <div className="nav-item sideNav-item">
                     <Link to={Contact}>
                         <img src="" alt=""/>

@@ -1,1 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Dancing+Script|Gilda+Display|Satisfy|Staatliches&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+.sectContainer{
+    background-color: var(--color_dark_black);
+    display: flex;
+}
+
+.topContainer{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectTitle{
+    font-size: 500%;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    margin-bottom: -1%;
+    color: var(--color_dark_gray);
+}
+
+.sectDesc{
+    font-size: 300%;
+    font-family: 'Staatliches', cursive;
+    color: var(--color_pink);
+}
+
+.sectBlurb{
+    font-size: 150%;
+    font-family: 'Satisfy', cursive;
+    color: var(--color_gray);
+}
+
+.sectMoreInfo{
+    font-size: 105%;
+    font-family: 'Cabin', sans-serif;
+    color: var(--color_gray);
+}
+
+.sectImgContainer{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sectBtn{
+    color: var(--color_white);
+    margin-top: 30px;
+    font-family: 'Staatliches', cursive;
+    font-size: 150%;
+    border: none;
+    background-color: var(--color_purple);
+    padding: 15px;
+}
+
+.sectBtn:hover{
+    background-color: var(--color_pink);
+}
 
