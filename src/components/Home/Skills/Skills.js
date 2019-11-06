@@ -4,7 +4,7 @@ import picture from './skillsImage.jpg';
 
 export default function skills() {
     return (
-        <div className="Skills sectContainer">
+        <div className="Skills sectContainer" id="skills">
             <div className="topContainer">
                 <h2 className="sectTitle">Skills.</h2>
                 <h3 className="sectDesc">Inspired by Design.</h3>
@@ -77,7 +77,7 @@ export default function skills() {
                             <div className="progress-bar progbar85"/>
                         </div>
                     </div>
-
+                    <a href="#contact"><button className="sectBtn">Contact</button></a>
                 </div>
 
             </div>

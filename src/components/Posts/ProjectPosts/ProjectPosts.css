@@ -1,0 +1,68 @@
+.projTopContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color_black);
+}
+
+.sliderImgContainer {
+    /*background-color: #A01A7D;*/
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.sliderImgContainer img {
+    width: 100%;
+    flex-direction: column;
+}
+
+.projInfoContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+}
+
+.projForumTitle{
+    margin-bottom: 30px;
+}
+
+.projDescContainer{
+    flex-direction: column;
+    padding: 0px 50px 20px 20px;
+    max-width: 50%;
+    line-height: 180%;
+}
+
+.projSkillsContainer{
+    flex-direction: column;
+    min-width: 500px;
+    padding: 20px;
+    color: var(--color_white);
+    background-color: var(--color_dark_black);
+    border: solid 1px var(--color_dark_gray);
+    margin-left: 50px;
+    height: max-content;
+
+}
+
+.projSkillsContainer table{
+    margin: auto;
+    font-family: 'Cabin', sans-serif;
+}
+
+.projSkillsContainer table th {
+    color: var(--color_white);
+    border: none;
+    font-size: 115%;
+}
+
+.projSkillsContainer table td {
+    color: var(--color_gray);
+    border: none;
+    font-size: 110%;
+}
+
+
+

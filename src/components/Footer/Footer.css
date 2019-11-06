@@ -1,0 +1,31 @@
+.Footer{
+    padding: 3%;
+    background-color: var(--color_white);
+    text-align: center;
+    font-size: 100%;
+    font-family: 'Cabin', sans-serif;
+    position: relative;
+}
+.footerLogoContainer{
+    padding: 10px;
+}
+
+.footerLogo{
+    max-height: 10%;
+    max-width: 10%;
+}
+.socialLinksContainer{
+    display: flex;
+    position: absolute;
+    left: 47%;
+}
+.socialLinksContainer img{
+    max-height: 40px;
+    padding: 10%;
+
+}
+
+.iconLinkRef{
+    padding-top: 50px;
+    font-size: 10px;
+}

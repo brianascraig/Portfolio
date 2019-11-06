@@ -15,7 +15,6 @@
     font-size: 500%;
     font-family: 'Cabin', sans-serif;
     font-weight: bold;
-    margin-bottom: -1%;
     color: var(--color_dark_gray);
 }
 
@@ -39,6 +38,7 @@
 
 .sectImgContainer{
     max-width: 500px;
+    max-height: 100%;
     display: flex;
     flex-direction: column;
 }

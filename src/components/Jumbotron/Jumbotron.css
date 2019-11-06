@@ -1,0 +1,13 @@
+.Jumbotron{
+    background-color: var(--color_purple);
+    padding: 4%;
+    text-align: center;
+}
+
+.Jumbotron h3, .Jumbotron a, .Jumbotron a:visited{
+    color: var(--color_white);
+}
+
+.Jumbotron:hover{
+    background-color: var(--color_pink);
+}

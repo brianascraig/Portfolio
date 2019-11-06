@@ -15,33 +15,33 @@ export default function header() {
         <div className="Header">
             <nav className="nav flex-column sideNav">
                 <div className="nav-item logoContainer">
-                    <Link to={Home}>
+                    <a href='/#home'>
                         <img className="logo" src={logo} alt=""/>
-                    </Link>
+                    </a>
                 </div>
                 <div className="nav-item sideNav-item">
-                    <Link to={About}>
+                    <a href='/#about'>
                         <img src="" alt=""/>
                         About
-                    </Link>
+                    </a>
                 </div>
                 <div className="nav-item sideNav-item">
-                    <Link to={Projects}>
+                    <a href='/#projects'>
                         <img src="" alt=""/>
                         Projects
-                    </Link>
+                    </a>
                 </div>
                 <div className="nav-item sideNav-item ">
-                    <Link to={Experience}>
+                    <a href="/#experience">
                         <img src="" alt=""/>
                         Experience
-                    </Link>
+                    </a>
                 </div>
                 <div className="nav-item sideNav-item">
-                    <Link to={Skills}>
+                    <a href="/#skills">
                         <img src="" alt=""/>
                         Skills
-                    </Link>
+                    </a>
                 </div>
                 {/*<div className="nav-item sideNav-item">*/}
                 {/*    <Link to={Blog}>*/}
@@ -50,10 +50,10 @@ export default function header() {
                 {/*    </Link>*/}
                 {/*</div>*/}
                 <div className="nav-item sideNav-item">
-                    <Link to={Contact}>
+                    <a href="/#contact">
                         <img src="" alt=""/>
                         Contact
-                    </Link>
+                    </a>
                 </div>
             </nav>
         </div>

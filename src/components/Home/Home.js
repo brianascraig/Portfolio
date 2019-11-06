@@ -8,10 +8,12 @@ import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
 import Slider from "./Slider/Slider";
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+import Jumbotron from "../Jumbotron/Jumbotron";
 
 export default function home() {
     return (
-        <div className="Home">
+        <div className="Home" id="home">
             <div className="row no-gutters">
                 <div className="headerContainer col-2">
                     <Header className="header"/>
@@ -24,7 +26,9 @@ export default function home() {
                     <Experience/>
                     <Skills/>
                     <Blog/>
+                    <Jumbotron />
                     <Contact/>
+                    <Footer />
                 </div>
             </div>
 

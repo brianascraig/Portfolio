@@ -4,11 +4,11 @@ import about_picture from './about-image.png';
 
 export default function about() {
     return (
-        <div className="About">
-            <div className="aboutContainer">
-                <h2 className="aboutTitle">About Me.</h2>
-                <h3 className="aboutDesc">Motivated by passion and positivity.</h3>
-                <div className="aboutBlurb">
+        <div className="About sectContainer" id="about">
+            <div className="topContainer">
+                <h2 className="sectTitle">About Me.</h2>
+                <h3 className="sectDesc">Motivated by passion and positivity.</h3>
+                <div className="sectBlurb">
                     <p>
                         I have a passion to learn technology which burns brighter every day that I continue
                         to explore information technology. I'm naturally a life-long learner, but the drive
@@ -17,7 +17,7 @@ export default function about() {
                         happening now because new technologies and I'm excited to be a part of that positivity.
                     </p>
                 </div>
-                <div className="aboutMoreInfo">
+                <div className="sectMoreInfo">
                     <p>
                         My journey into this field starts with my...Lorem ipsum dolor sit amet, consectetur
                         adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -41,11 +41,11 @@ export default function about() {
                         Sed enim ut sem viverra aliquet eget sit amet tellus. Enim nunc faucibus a pellentesque
                         sit amet porttitor eget.
                     </p>
-                    <button className="btn btn-lg projBtn">Projects</button>
+                    <a href="#projects"><button className="sectBtn">Projects</button></a>
                 </div>
             </div>
-            <div className="aboutImageContainer">
-                <img src={about_picture} alt=""/>
+            <div className="sectImgContainer">
+                <img className="aboutImage" src={about_picture} alt=""/>
             </div>
 
         </div>

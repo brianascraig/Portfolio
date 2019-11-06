@@ -1,9 +1,12 @@
 .Contact{
     background-color: var(--color_black);
 }
+.topContainer{
+   margin: -6px;
+}
 
 .contactImg{
-    max-height: 800px;
+    max-height: 1000px;
 }
 
 .inputContainer{
@@ -11,11 +14,16 @@
     width: 100%;
 }
 
+.formInput{
+    border-radius: 0px;
+    border: 1px solid gray;
+}
+
 form{
     padding-top: 40px;
 }
 
 textarea{
-    border-radius: 5px;
+    border-radius: 0px;
     border: 1px solid gray;
 }

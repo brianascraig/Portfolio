@@ -4,18 +4,18 @@ import picture from './expImage.jpg';
 
 export default function experience() {
     return (
-        <div className="Experience">
-            <div className="expContainer">
-                <h2 className="expTitle">Experience.</h2>
-                <h3 className="expDesc">Design and code you can experience.</h3>
-                <div className="expBlurb">
+        <div className="Experience sectContainer" id="experience">
+            <div className="topContainer">
+                <h2 className="sectTitle">Experience.</h2>
+                <h3 className="sectDesc">Design and code you can experience.</h3>
+                <div className="sectBlurb">
                     <p>
                         The thing I love most about creating in IT is discovering the design a client
                         or teammate has in mind and making it come to life. From the wireframe, to the frontend design,
                         to the backend controls, it's exciting to see requirements take form visually and logically.
                     </p>
                 </div>
-                <div className="expMoreInfo">
+                <div className="sectMoreInfo">
                     <div className="expListItemContainer">
                         <div className="expListItem">
                             01. DESIGN
@@ -64,7 +64,7 @@ export default function experience() {
                             business presentations, and web design.
                         </p>
                     </div>
-                    <button className="btn btn-lg expBtn">Skills</button>
+                    <a href="#skills"><button className="sectBtn">Skills</button></a>
                 </div>
             </div>
             <div className="expImgContainer">

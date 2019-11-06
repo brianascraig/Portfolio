@@ -65,11 +65,8 @@
     opacity: 1;
 }
 
-.imageText p{
-
-    background-color: #535568;
-    padding: 10px;
-
+.imageText, .imageText a {
+    color: var(--color_white);
 }
 
 .imageText:hover{

@@ -4,7 +4,7 @@ import picture from './slider-image.png';
 
 export default function slider() {
     return (
-        <div className="Slider">
+        <div className="Slider" id="slider">
             {/*<img className="sliderImg" src={picture} alt=""/>*/}
             <div className="sliderCaption1">
                 Briana Craig
@@ -15,7 +15,7 @@ export default function slider() {
             <div className="sliderCaption3">
                 Perfection is not attainable, but if we chase perfection <br/> we can catch excellence.
             </div>
-            <button className="btn btn-lg moreBtn">Learn More About Me</button>
+            <a href="#about"><button className="moreBtn">Learn More About Me</button></a>
         </div>
     );
 }
