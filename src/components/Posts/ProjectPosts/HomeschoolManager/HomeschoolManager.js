@@ -12,20 +12,23 @@ export default function homeschoolManager () {
                     <Header />
                 </div>
                 <div className="no-gutters projTopContainer col-10">
-                    <div className="sliderImgContainer shadow p-3 mb-5">
-                        <img src={picture} alt=""/>
+                    <div className="sliderImgContainer  shadow p-3 mb-5">
+                        <img className="homeschoolProjImg" src={picture} alt=""/>
                     </div>
                     <div className="projInfoContainer">
                         <div className="projDescContainer">
                             <h3 className="sectDesc projForumTitle">Home School Manager</h3>
                             <p className="sectMoreInfo">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.
+                                This application is designed to provide a learning management system geared towards
+                                homeschooling parents and children. It provides and interface for its users to upload
+                                assignments, homework, or tests. It also allows parents to administer tests and lessons
+                                through the platform. Both parents and students can see their dashboard where they can
+                                see their records or make changes.
                                 <br/><br/>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.
+                                This application is designed to meet the need for homeschooling parents to create and
+                                retain adequate records of their child's education as required by the state. Most
+                                importantly, it allows parents to use online learning while still implementing their own
+                                lessons.
                             </p>
                         </div>
                         <div className="projSkillsContainer">

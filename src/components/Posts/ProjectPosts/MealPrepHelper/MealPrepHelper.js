@@ -19,13 +19,12 @@ export default function mealPrepHelper () {
                         <div className="projDescContainer">
                             <h3 className="sectDesc projForumTitle">Meal Prep Helper App</h3>
                             <p className="sectMoreInfo">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.
+                                This application allows users to enter food preferences and generate a week's worth of
+                                recipes based on their preferences. The user can view details about each recipe and
+                                generate a shopping list. Each recipe can be added to a Google Calendar or shared
+                                by email.
                                 <br/><br/>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.
+                                Users can edit their preferences, save recipes, and view previous weeks of recipes.
                             </p>
                         </div>
                         <div className="projSkillsContainer">

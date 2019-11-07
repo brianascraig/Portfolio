@@ -19,13 +19,10 @@ export default function forumBlog () {
                         <div className="projDescContainer">
                             <h3 className="sectDesc projForumTitle">Forum Blog App</h3>
                             <p className="sectMoreInfo">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.
+                                This application is designed as a blog website with a forum for users to connect about
+                                thrift store finds. Users can browse the forum and create, edit, or delete their own
+                                posts. Users will be able to post store locations, photos, and prices.
                                 <br/><br/>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
                         </div>
                         <div className="projSkillsContainer">
