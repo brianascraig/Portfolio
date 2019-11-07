@@ -21,7 +21,7 @@ export default function header() {
                     </a>
                 </div>
                 <div className="nav-item sideNav-item">
-                    <Link to='/#about'>
+                    <Link to='/Portfolio/#about'>
                         <img src="" alt=""/>
                         About
                     </Link>
