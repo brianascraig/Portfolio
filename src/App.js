@@ -43,10 +43,10 @@ class App extends Component {
                     <Route path='/project-posts/forum-blog' component={ForumBlog} />
                     <Route path='/project-posts' component={ProjectPosts} />
                     <Route path='/articles' component={Articles} />
-                    <Route path='/skills' component={Skills} />
+                    <Route path='/skills' component={Home} />
                     <Route path='/projects' component={Projects} />
                     <Route path='/experience' component={Experience} />
-                    <Route path='/contact' component={Contact} />
+                    <Route path='/contact' />
                     <Route path='/blog' component={Blog} />
                     <Route path='/about' component={About}/>
                     <Route path='/' component={Home} />

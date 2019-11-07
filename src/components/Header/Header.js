@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
-import {Link} from "react-router-dom";
+import { HashLink as Link} from "react-router-hash-link";
+// import {Link} from "react-router-dom";
 import Home from "../Home/Home";
 import About from "../Home/About/About";
 import Projects from "../Home/Projects/Projects";
@@ -20,10 +21,10 @@ export default function header() {
                     </a>
                 </div>
                 <div className="nav-item sideNav-item">
-                    <a href='/#about'>
+                    <Link to='/#about'>
                         <img src="" alt=""/>
                         About
-                    </a>
+                    </Link>
                 </div>
                 <div className="nav-item sideNav-item">
                     <a href='/#projects'>
