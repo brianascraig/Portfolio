@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import { HashLink as Link} from "react-router-hash-link";
+// import { HashLink as Link} from "react-router-hash-link";
 import {Link} from "react-router-dom";
 import Home from "../Home/Home";
 import About from "../Home/About/About";
