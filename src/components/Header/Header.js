@@ -16,7 +16,7 @@ export default function header() {
         <div className="Header">
             <nav className="nav flex-column sideNav">
                 <div className="nav-item logoContainer">
-                    <a href='/#home'>
+                    <a href='/Portfolio/#home'>
                         <img className="logo" src={logo} alt=""/>
                     </a>
                 </div>
@@ -27,19 +27,19 @@ export default function header() {
                     </a>
                 </div>
                 <div className="nav-item sideNav-item">
-                    <a href='/#projects'>
+                    <a href='/Portfolio/#projects'>
                         <img src="" alt=""/>
                         Projects
                     </a>
                 </div>
                 <div className="nav-item sideNav-item ">
-                    <a href="/#experience">
+                    <a href="/Portfolio/#experience">
                         <img src="" alt=""/>
                         Experience
                     </a>
                 </div>
                 <div className="nav-item sideNav-item">
-                    <a href="/#skills">
+                    <a href="/Portfolio/#skills">
                         <img src="" alt=""/>
                         Skills
                     </a>
@@ -51,7 +51,7 @@ export default function header() {
                 {/*    </Link>*/}
                 {/*</div>*/}
                 <div className="nav-item sideNav-item">
-                    <a href="/#contact">
+                    <a href="/Portfolio/#contact">
                         <img src="" alt=""/>
                         Contact
                     </a>

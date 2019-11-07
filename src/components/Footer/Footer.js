@@ -8,7 +8,7 @@ export default function footer() {
     return (
         <div className="Footer">
             <div className="footerLogoContainer">
-                <a href="/#home"><img className="footerLogo" src={logo} alt=""/></a>
+                <a href="/Portfolio/#home"><img className="footerLogo" src={logo} alt=""/></a>
             </div>
             <div className="copyrightContainer">
                 <p>Copyright 2019-2020 | Portfolio by Briana Craig | All Rights Reserved</p>
