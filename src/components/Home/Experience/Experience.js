@@ -49,7 +49,7 @@ export default function experience() {
                     <div className="expListItemContainer">
                         <div className="expListItem">
                             04. DIGITAL MARKETING & BRANDING
-                        </div>
+                        </div>git push heroku master
                         <p>
                             I have provided digital marketing and branding on social media platforms for my past clients.
                             I also integrated these elements into the development of my client's websites.
@@ -67,7 +67,7 @@ export default function experience() {
                     <a href="#skills"><button className="sectBtn">Skills</button></a>
                 </div>
             </div>
-            <div className="expImgContainer">
+            <div className="expImgContainer sectImgContainer">
                 <img src={picture} alt=""/>
             </div>
         </div>
